@@ -311,7 +311,7 @@ function init() {
         sudo mkdir -p "${targetDir}"
     fi
 
-    downloadHost="https://raw.githubusercontent.com/xzhih/one-key-hidpi/master"
+    downloadHost="https://raw.githubusercontents.com/xzhih/one-key-hidpi/master"
     if [ -d "${currentDir}/displayIcons" ]; then
         downloadHost="file://${currentDir}"
     fi
